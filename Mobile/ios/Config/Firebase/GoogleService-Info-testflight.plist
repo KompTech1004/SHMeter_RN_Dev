@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>297244952396-irq3bh4knov2agl6uek6k900gihs6rbp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.297244952396-irq3bh4knov2agl6uek6k900gihs6rbp</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCF-zZiNmV8ccuwGjBehQmAVHKnejSTxa8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>297244952396</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.freyja.shmeter</string>
+	<key>PROJECT_ID</key>
+	<string>freyja-shmeter</string>
+	<key>STORAGE_BUCKET</key>
+	<string>freyja-shmeter.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:297244952396:ios:e5d38dc4ac5ddb9e</string>
+	<key>DATABASE_URL</key>
+	<string>https://freyja-shmeter.firebaseio.com</string>
+</dict>
+</plist>

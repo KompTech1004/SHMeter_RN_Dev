@@ -1,0 +1,14 @@
+//
+//  Config.xcconfig
+//  freyja
+//
+//  Created by Владимир Сергейчик on 8/21/19.
+//  Copyright © 2019 Facebook. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_NAME_SUFFIX = Dev
+TARGET = develop
+GOOGLE_SERVICE_INFO_PLIST_NAME = GoogleService-Info-develop

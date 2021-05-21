@@ -1,0 +1,831 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		62410D908F73561BED64BD9A /* libPods-freyja.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18683CE04DA5FF05F5AE23AD /* libPods-freyja.a */; };
+		E7311125230E905900B4E6DB /* develop.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E7311120230E905900B4E6DB /* develop.xcconfig */; };
+		E7311126230E905900B4E6DB /* GoogleService-Info-develop.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7311122230E905900B4E6DB /* GoogleService-Info-develop.plist */; };
+		E7311127230E905900B4E6DB /* GoogleService-Info-testflight.plist in Resources */ = {isa = PBXBuildFile; fileRef = E7311123230E905900B4E6DB /* GoogleService-Info-testflight.plist */; };
+		E7311128230E905900B4E6DB /* testflight.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E7311124230E905900B4E6DB /* testflight.xcconfig */; };
+		E755AAFC22DF4A8D00BFBEB2 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAEA22DF4A8B00BFBEB2 /* Montserrat-ExtraBoldItalic.ttf */; };
+		E755AAFD22DF4A8D00BFBEB2 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAEB22DF4A8B00BFBEB2 /* Montserrat-Black.ttf */; };
+		E755AAFE22DF4A8D00BFBEB2 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAEC22DF4A8C00BFBEB2 /* Montserrat-SemiBoldItalic.ttf */; };
+		E755AAFF22DF4A8D00BFBEB2 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAED22DF4A8C00BFBEB2 /* Montserrat-ThinItalic.ttf */; };
+		E755AB0022DF4A8D00BFBEB2 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAEE22DF4A8C00BFBEB2 /* Montserrat-BlackItalic.ttf */; };
+		E755AB0122DF4A8D00BFBEB2 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAEF22DF4A8C00BFBEB2 /* Montserrat-BoldItalic.ttf */; };
+		E755AB0222DF4A8D00BFBEB2 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAF022DF4A8C00BFBEB2 /* Montserrat-SemiBold.ttf */; };
+		E755AB0322DF4A8D00BFBEB2 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAF122DF4A8C00BFBEB2 /* Montserrat-LightItalic.ttf */; };
+		E755AB0422DF4A8D00BFBEB2 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAF222DF4A8C00BFBEB2 /* Montserrat-Bold.ttf */; };
+		E755AB0522DF4A8D00BFBEB2 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAF322DF4A8C00BFBEB2 /* Montserrat-ExtraLightItalic.ttf */; };
+		E755AB0622DF4A8D00BFBEB2 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAF422DF4A8C00BFBEB2 /* Montserrat-Regular.ttf */; };
+		E755AB0722DF4A8D00BFBEB2 /* Montserrat-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAF522DF4A8C00BFBEB2 /* Montserrat-RegularItalic.ttf */; };
+		E755AB0822DF4A8D00BFBEB2 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAF622DF4A8C00BFBEB2 /* Montserrat-Thin.ttf */; };
+		E755AB0922DF4A8D00BFBEB2 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAF722DF4A8D00BFBEB2 /* Montserrat-ExtraBold.ttf */; };
+		E755AB0A22DF4A8D00BFBEB2 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAF822DF4A8D00BFBEB2 /* Montserrat-MediumItalic.ttf */; };
+		E755AB0B22DF4A8D00BFBEB2 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAF922DF4A8D00BFBEB2 /* Montserrat-ExtraLight.ttf */; };
+		E755AB0C22DF4A8D00BFBEB2 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAFA22DF4A8D00BFBEB2 /* Montserrat-Light.ttf */; };
+		E755AB0D22DF4A8D00BFBEB2 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E755AAFB22DF4A8D00BFBEB2 /* Montserrat-Medium.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		017E1460DAD0424E9D8E8957 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		0E8302A595684A35985F6045 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* freyja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = freyja.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = freyja/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = freyja/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = freyja/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = freyja/main.m; sourceTree = "<group>"; };
+		15B319429CD9AA412DE9E4F6 /* Pods-freyja.release (testflight).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freyja.release (testflight).xcconfig"; path = "Target Support Files/Pods-freyja/Pods-freyja.release (testflight).xcconfig"; sourceTree = "<group>"; };
+		18683CE04DA5FF05F5AE23AD /* libPods-freyja.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-freyja.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9DA73F9886FDFAF57752CB /* Pods-freyja-testflight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freyja-testflight.release.xcconfig"; path = "Target Support Files/Pods-freyja-testflight/Pods-freyja-testflight.release.xcconfig"; sourceTree = "<group>"; };
+		1B96E22C336B46BD6C62BA9F /* Pods-freyja-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freyja-dev.release.xcconfig"; path = "Target Support Files/Pods-freyja-dev/Pods-freyja-dev.release.xcconfig"; sourceTree = "<group>"; };
+		203729ECC3F843218FCF1938 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		435CAD85B19CA5A3ABBE7BCE /* Pods-freyja.debug (testflight).xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freyja.debug (testflight).xcconfig"; path = "Target Support Files/Pods-freyja/Pods-freyja.debug (testflight).xcconfig"; sourceTree = "<group>"; };
+		46CBEB499EA392CC08105930 /* Pods-freyjaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freyjaTests.debug.xcconfig"; path = "Target Support Files/Pods-freyjaTests/Pods-freyjaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		48207D1FC8914B509B162820 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		5E431FA89076486C95800447 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		605BABE6986946779DE22DCA /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		68B42BEB256644478D86F341 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		6A93099CDFF58C6B9457E3E1 /* libPods-freyja-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-freyja-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6649C272954A9597282286 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		730DDF107B784D6EBE4E802F /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		777D4D44015145BDA3257DAE /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		8AD74A92ED6C081CED80B2C5 /* Pods-freyja-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freyja-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-freyja-tvOSTests/Pods-freyja-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		8FB5DD1E1E9A4156BF77B24A /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		91CEE4BE19E745B8A39FFFD2 /* Pods-freyjaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freyjaTests.release.xcconfig"; path = "Target Support Files/Pods-freyjaTests/Pods-freyjaTests.release.xcconfig"; sourceTree = "<group>"; };
+		923FE6013037453592953A12 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		9CD8C09F9502573D7BCC53CF /* libPods-freyja-testflight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-freyja-testflight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A471E3F6EEFBD5E608E9650D /* Pods-freyja.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freyja.release.xcconfig"; path = "Target Support Files/Pods-freyja/Pods-freyja.release.xcconfig"; sourceTree = "<group>"; };
+		A4E1F297EEEA4357AF013F6C /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		AD139D12E973661EDA7ECE72 /* Pods-freyja-testflight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freyja-testflight.debug.xcconfig"; path = "Target Support Files/Pods-freyja-testflight/Pods-freyja-testflight.debug.xcconfig"; sourceTree = "<group>"; };
+		B299BB94C27F5659CCDD0B1A /* libPods-freyjaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-freyjaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89B331253079715FA1D15E2 /* Pods-freyja-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freyja-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-freyja-tvOSTests/Pods-freyja-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C27E258654FA4EA8A6F9F06F /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		CD079728C956EE5ACFE80E42 /* Pods-freyja-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freyja-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-freyja-tvOS/Pods-freyja-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D8B5A3D426B0DCFAFB9EBB4B /* Pods-freyja.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freyja.debug.xcconfig"; path = "Target Support Files/Pods-freyja/Pods-freyja.debug.xcconfig"; sourceTree = "<group>"; };
+		DC57026AB9A05D6F26505172 /* libPods-freyja-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-freyja-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E731111A230E8E0C00B4E6DB /* Freyja-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Freyja-Info.plist"; sourceTree = "<group>"; };
+		E7311120230E905900B4E6DB /* develop.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = develop.xcconfig; sourceTree = "<group>"; };
+		E7311122230E905900B4E6DB /* GoogleService-Info-develop.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-develop.plist"; sourceTree = "<group>"; };
+		E7311123230E905900B4E6DB /* GoogleService-Info-testflight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-testflight.plist"; sourceTree = "<group>"; };
+		E7311124230E905900B4E6DB /* testflight.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = testflight.xcconfig; sourceTree = "<group>"; };
+		E755AAEA22DF4A8B00BFBEB2 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../assets/fonts/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		E755AAEB22DF4A8B00BFBEB2 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Black.ttf"; path = "../assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		E755AAEC22DF4A8C00BFBEB2 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBoldItalic.ttf"; path = "../assets/fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E755AAED22DF4A8C00BFBEB2 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ThinItalic.ttf"; path = "../assets/fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E755AAEE22DF4A8C00BFBEB2 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-BlackItalic.ttf"; path = "../assets/fonts/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E755AAEF22DF4A8C00BFBEB2 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-BoldItalic.ttf"; path = "../assets/fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E755AAF022DF4A8C00BFBEB2 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		E755AAF122DF4A8C00BFBEB2 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-LightItalic.ttf"; path = "../assets/fonts/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		E755AAF222DF4A8C00BFBEB2 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		E755AAF322DF4A8C00BFBEB2 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraLightItalic.ttf"; path = "../assets/fonts/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		E755AAF422DF4A8C00BFBEB2 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		E755AAF522DF4A8C00BFBEB2 /* Montserrat-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-RegularItalic.ttf"; path = "../assets/fonts/Montserrat-RegularItalic.ttf"; sourceTree = "<group>"; };
+		E755AAF622DF4A8C00BFBEB2 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Thin.ttf"; path = "../assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		E755AAF722DF4A8D00BFBEB2 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBold.ttf"; path = "../assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		E755AAF822DF4A8D00BFBEB2 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-MediumItalic.ttf"; path = "../assets/fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		E755AAF922DF4A8D00BFBEB2 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraLight.ttf"; path = "../assets/fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		E755AAFA22DF4A8D00BFBEB2 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Light.ttf"; path = "../assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		E755AAFB22DF4A8D00BFBEB2 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		EC0BA858B63D5D3A3E2E2EB4 /* Pods-freyja-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freyja-dev.debug.xcconfig"; path = "Target Support Files/Pods-freyja-dev/Pods-freyja-dev.debug.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F147B6B289F64B0F9F8330AD /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		F22FC40828F649EF94408736 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		F3D8DEB70D1A24634066D61C /* Pods-freyja-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-freyja-tvOS.release.xcconfig"; path = "Target Support Files/Pods-freyja-tvOS/Pods-freyja-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62410D908F73561BED64BD9A /* libPods-freyja.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B07FAE1A68108700A75B9A /* freyja */ = {
+			isa = PBXGroup;
+			children = (
+				E731111A230E8E0C00B4E6DB /* Freyja-Info.plist */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = freyja;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				18683CE04DA5FF05F5AE23AD /* libPods-freyja.a */,
+				6A93099CDFF58C6B9457E3E1 /* libPods-freyja-tvOS.a */,
+				DC57026AB9A05D6F26505172 /* libPods-freyja-tvOSTests.a */,
+				B299BB94C27F5659CCDD0B1A /* libPods-freyjaTests.a */,
+				9CD8C09F9502573D7BCC53CF /* libPods-freyja-testflight.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8182190A1EBF4FE2B76D1D6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E755AAEB22DF4A8B00BFBEB2 /* Montserrat-Black.ttf */,
+				E755AAEE22DF4A8C00BFBEB2 /* Montserrat-BlackItalic.ttf */,
+				E755AAF222DF4A8C00BFBEB2 /* Montserrat-Bold.ttf */,
+				E755AAEF22DF4A8C00BFBEB2 /* Montserrat-BoldItalic.ttf */,
+				E755AAF722DF4A8D00BFBEB2 /* Montserrat-ExtraBold.ttf */,
+				E755AAEA22DF4A8B00BFBEB2 /* Montserrat-ExtraBoldItalic.ttf */,
+				E755AAF922DF4A8D00BFBEB2 /* Montserrat-ExtraLight.ttf */,
+				E755AAF322DF4A8C00BFBEB2 /* Montserrat-ExtraLightItalic.ttf */,
+				E755AAFA22DF4A8D00BFBEB2 /* Montserrat-Light.ttf */,
+				E755AAF122DF4A8C00BFBEB2 /* Montserrat-LightItalic.ttf */,
+				E755AAFB22DF4A8D00BFBEB2 /* Montserrat-Medium.ttf */,
+				E755AAF822DF4A8D00BFBEB2 /* Montserrat-MediumItalic.ttf */,
+				E755AAF422DF4A8C00BFBEB2 /* Montserrat-Regular.ttf */,
+				E755AAF522DF4A8C00BFBEB2 /* Montserrat-RegularItalic.ttf */,
+				E755AAF022DF4A8C00BFBEB2 /* Montserrat-SemiBold.ttf */,
+				E755AAEC22DF4A8C00BFBEB2 /* Montserrat-SemiBoldItalic.ttf */,
+				E755AAF622DF4A8C00BFBEB2 /* Montserrat-Thin.ttf */,
+				E755AAED22DF4A8C00BFBEB2 /* Montserrat-ThinItalic.ttf */,
+				F22FC40828F649EF94408736 /* AntDesign.ttf */,
+				777D4D44015145BDA3257DAE /* Entypo.ttf */,
+				5E431FA89076486C95800447 /* EvilIcons.ttf */,
+				C27E258654FA4EA8A6F9F06F /* Feather.ttf */,
+				A4E1F297EEEA4357AF013F6C /* FontAwesome.ttf */,
+				923FE6013037453592953A12 /* FontAwesome5_Brands.ttf */,
+				8FB5DD1E1E9A4156BF77B24A /* FontAwesome5_Regular.ttf */,
+				48207D1FC8914B509B162820 /* FontAwesome5_Solid.ttf */,
+				017E1460DAD0424E9D8E8957 /* Fontisto.ttf */,
+				203729ECC3F843218FCF1938 /* Foundation.ttf */,
+				F147B6B289F64B0F9F8330AD /* Ionicons.ttf */,
+				0E8302A595684A35985F6045 /* MaterialCommunityIcons.ttf */,
+				730DDF107B784D6EBE4E802F /* MaterialIcons.ttf */,
+				68B42BEB256644478D86F341 /* Octicons.ttf */,
+				605BABE6986946779DE22DCA /* SimpleLineIcons.ttf */,
+				6E6649C272954A9597282286 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				E731111F230E905900B4E6DB /* Config */,
+				13B07FAE1A68108700A75B9A /* freyja */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				DAC286332BB11B46482ACEFB /* Pods */,
+				8182190A1EBF4FE2B76D1D6C /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* freyja.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAC286332BB11B46482ACEFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8B5A3D426B0DCFAFB9EBB4B /* Pods-freyja.debug.xcconfig */,
+				A471E3F6EEFBD5E608E9650D /* Pods-freyja.release.xcconfig */,
+				CD079728C956EE5ACFE80E42 /* Pods-freyja-tvOS.debug.xcconfig */,
+				F3D8DEB70D1A24634066D61C /* Pods-freyja-tvOS.release.xcconfig */,
+				B89B331253079715FA1D15E2 /* Pods-freyja-tvOSTests.debug.xcconfig */,
+				8AD74A92ED6C081CED80B2C5 /* Pods-freyja-tvOSTests.release.xcconfig */,
+				46CBEB499EA392CC08105930 /* Pods-freyjaTests.debug.xcconfig */,
+				91CEE4BE19E745B8A39FFFD2 /* Pods-freyjaTests.release.xcconfig */,
+				EC0BA858B63D5D3A3E2E2EB4 /* Pods-freyja-dev.debug.xcconfig */,
+				1B96E22C336B46BD6C62BA9F /* Pods-freyja-dev.release.xcconfig */,
+				AD139D12E973661EDA7ECE72 /* Pods-freyja-testflight.debug.xcconfig */,
+				1A9DA73F9886FDFAF57752CB /* Pods-freyja-testflight.release.xcconfig */,
+				435CAD85B19CA5A3ABBE7BCE /* Pods-freyja.debug (testflight).xcconfig */,
+				15B319429CD9AA412DE9E4F6 /* Pods-freyja.release (testflight).xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E731111F230E905900B4E6DB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				E7311120230E905900B4E6DB /* develop.xcconfig */,
+				E7311121230E905900B4E6DB /* Firebase */,
+				E7311124230E905900B4E6DB /* testflight.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		E7311121230E905900B4E6DB /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				E7311122230E905900B4E6DB /* GoogleService-Info-develop.plist */,
+				E7311123230E905900B4E6DB /* GoogleService-Info-testflight.plist */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13B07F861A680F5B00A75B9A /* freyja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "freyja" */;
+			buildPhases = (
+				7D0374C6C0AE2394699DF775 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				8E1E5E16522D2B842CEFDA0A /* [CP] Copy Pods Resources */,
+				E7DEA56D22DC696500C0E091 /* Fabric */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = freyja;
+			productName = freyja;
+			productReference = 13B07F961A680F5B00A75B9A /* freyja.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 2D2L349D89;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "freyja" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* freyja */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E755AB0C22DF4A8D00BFBEB2 /* Montserrat-Light.ttf in Resources */,
+				E755AB0122DF4A8D00BFBEB2 /* Montserrat-BoldItalic.ttf in Resources */,
+				E755AB0B22DF4A8D00BFBEB2 /* Montserrat-ExtraLight.ttf in Resources */,
+				E755AAFE22DF4A8D00BFBEB2 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				E755AB0322DF4A8D00BFBEB2 /* Montserrat-LightItalic.ttf in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				E755AAFD22DF4A8D00BFBEB2 /* Montserrat-Black.ttf in Resources */,
+				E755AAFC22DF4A8D00BFBEB2 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				E755AB0022DF4A8D00BFBEB2 /* Montserrat-BlackItalic.ttf in Resources */,
+				E755AB0222DF4A8D00BFBEB2 /* Montserrat-SemiBold.ttf in Resources */,
+				E755AB0722DF4A8D00BFBEB2 /* Montserrat-RegularItalic.ttf in Resources */,
+				E755AB0822DF4A8D00BFBEB2 /* Montserrat-Thin.ttf in Resources */,
+				E755AB0522DF4A8D00BFBEB2 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				E7311127230E905900B4E6DB /* GoogleService-Info-testflight.plist in Resources */,
+				E755AB0922DF4A8D00BFBEB2 /* Montserrat-ExtraBold.ttf in Resources */,
+				E755AB0A22DF4A8D00BFBEB2 /* Montserrat-MediumItalic.ttf in Resources */,
+				E7311126230E905900B4E6DB /* GoogleService-Info-develop.plist in Resources */,
+				E755AAFF22DF4A8D00BFBEB2 /* Montserrat-ThinItalic.ttf in Resources */,
+				E7311128230E905900B4E6DB /* testflight.xcconfig in Resources */,
+				E755AB0622DF4A8D00BFBEB2 /* Montserrat-Regular.ttf in Resources */,
+				E755AB0422DF4A8D00BFBEB2 /* Montserrat-Bold.ttf in Resources */,
+				E7311125230E905900B4E6DB /* develop.xcconfig in Resources */,
+				E755AB0D22DF4A8D00BFBEB2 /* Montserrat-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		7D0374C6C0AE2394699DF775 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-freyja-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E1E5E16522D2B842CEFDA0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-freyja/Pods-freyja-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Cpp.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-freyja/Pods-freyja-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7DEA56D22DC696500C0E091 /* Fabric */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Fabric;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" a830fe8bc311527dce65dfd7c867926e25a2cb50 e7f91913974a4c27d2f9c7c8e3622e63fffb97e4ca02f3a9b7aad707c3ab63b4\n";
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B5A3D426B0DCFAFB9EBB4B /* Pods-freyja.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development: Jenkins MEV (Y2RSBRP2ZP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development: Jenkins MEV (Y2RSBRP2ZP)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 44;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 2D2L349D89;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Freyja-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freyja.shmeter;
+				PRODUCT_NAME = freyja;
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.freyja.shmeter";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A471E3F6EEFBD5E608E9650D /* Pods-freyja.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Distribution: Freyja Solutions, LLC (2D2L349D89)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: Freyja Solutions, LLC (2D2L349D89)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 44;
+				DEVELOPMENT_TEAM = 2D2L349D89;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Freyja-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freyja.shmeter;
+				PRODUCT_NAME = freyja;
+				PROVISIONING_PROFILE_SPECIFIER = "match AdHoc com.freyja.shmeter";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7311120230E905900B4E6DB /* develop.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7311120230E905900B4E6DB /* develop.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E745BADB230D95FE0030D30D /* Debug (TestFlight) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7311124230E905900B4E6DB /* testflight.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = "Debug (TestFlight)";
+		};
+		E745BADC230D95FE0030D30D /* Debug (TestFlight) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 435CAD85B19CA5A3ABBE7BCE /* Pods-freyja.debug (testflight).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development: Jenkins MEV (Y2RSBRP2ZP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development: Jenkins MEV (Y2RSBRP2ZP)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 44;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 2D2L349D89;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Freyja-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freyja.shmeter;
+				PRODUCT_NAME = freyja;
+				PROVISIONING_PROFILE_SPECIFIER = "match Development com.freyja.shmeter";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Debug (TestFlight)";
+		};
+		E745BADD230D960B0030D30D /* Release (TestFlight) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7311124230E905900B4E6DB /* testflight.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release (TestFlight)";
+		};
+		E745BADE230D960B0030D30D /* Release (TestFlight) */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B319429CD9AA412DE9E4F6 /* Pods-freyja.release (testflight).xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Distribution: Freyja Solutions, LLC (2D2L349D89)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: Freyja Solutions, LLC (2D2L349D89)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 44;
+				DEVELOPMENT_TEAM = 2D2L349D89;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "Freyja-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.freyja.shmeter;
+				PRODUCT_NAME = freyja;
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.freyja.shmeter";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Release (TestFlight)";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "freyja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				E745BADC230D95FE0030D30D /* Debug (TestFlight) */,
+				13B07F951A680F5B00A75B9A /* Release */,
+				E745BADE230D960B0030D30D /* Release (TestFlight) */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "freyja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				E745BADB230D95FE0030D30D /* Debug (TestFlight) */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+				E745BADD230D960B0030D30D /* Release (TestFlight) */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

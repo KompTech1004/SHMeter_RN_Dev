@@ -1,0 +1,19 @@
+require_relative '../node_modules/react-native/scripts/react_native_pods'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+platform :ios, '10.0'
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+target 'freyja' do
+  config = use_native_modules!
+  use_react_native!(:path => config["reactNativePath"])
+  pod 'Fabric'
+  pod 'Crashlytics'
+  pod 'Firebase'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Firestore'
+end
